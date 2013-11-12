@@ -1,6 +1,6 @@
 ## Description
 
-MyHashTags: A jQuery twitter plugin.  Shows the latest tweets from a list of hashtags.
+MyHashTags: A jQuery twitter plugin.  Shows the latest tweets of a list of hashtags.
 
 The latest version of MyHashTags support the Twitter API v1.1
 
