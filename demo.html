@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<meta name="description" content="MyHashTags" />
+	<title>MyHashTags Sample</title>
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<link rel="stylesheet" href="myhashtags.css" />
+	<script src="jquery.myhashtags.js"></script>
+	<script>
+		$(function()
+		{
+			var options = {q: '#jquery,#javascript', count: '15', lang: 'es'};
+			$('#divTweets').myhashtags(options);
+		});
+	</script>
+</head>
+<body>
+	<header>
+		<hgroup>
+			<h1>MyHashTags: Shows the latest tweets from a list of hashtags</h1>
+		</hgroup>
+	</header>
+	<nav></nav>
+	<section>
+		<div id="divTweets"></div>
+	</section>
+	<aside>
+	</aside>
+	<footer>
+	</footer>
+</body>
+</html>
+
+
