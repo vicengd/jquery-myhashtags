@@ -34,7 +34,7 @@
                    		}
                     }
                     var date_str = item['created_at'].substr(8, 2) + '/' + strMonth + '/' + item['created_at'].substr(28,2) + ' - ' + item['created_at'].substr(11,5);
-                    tweets += '<li><span class="datetweet">'+ date_str + '</span>: ' + item['text'] +'</li>';
+                    tweets += '<li><a href="https://twitter.com/'+item['user']['screen_name']+'" target="_blank">'+item['user']['name']+'</a><br><span class="datetweet">'+ date_str + '</span><br>' + item['text'] +'</li>';
                 });
 				tweets += '</ul>';
 				context.append(tweets);

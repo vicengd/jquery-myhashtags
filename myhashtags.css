@@ -1,3 +1,4 @@
 #divTweets ul {list-style: none}
-#divTweets ul li {margin-bottom: 5px}
+#divTweets ul li {margin-bottom: 15px}
 #divTweets ul li .datetweet {font-style:italic}
+#divTweets ul li a {color: #000000}
